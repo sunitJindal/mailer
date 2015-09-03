@@ -1,0 +1,26 @@
+html
+  head
+
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+    meta(http-equiv="Content-Type" content="text/html; charset=UTF-8")
+    title Welcome
+  body
+    .header-strip App Logo
+    .content-wrapper
+      p.title Forgot Your Pin?
+      p We received a request to reset the PIN for your app. To reset your pin please enter this token
+      h3.center #{token}
+      p Please note that this is a one time use token. If you do not wish to reset your pin ignore this message and your PIN will not be changed.
+
+      p.signature Mailer Team
+
+      br
+      div.button-container
+        span.button-mail M
+        span support@domain.com
+      div.button-container
+        span.button-facebook F
+        span <a href="https://www.facebook.com/">Like us on Facebook</a>
+      div.button-container
+        span.button-twitter T
+        span <a href="https://twitter.com/">Follow us on Twitter</a>

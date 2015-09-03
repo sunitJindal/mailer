@@ -1,0 +1,68 @@
+body{
+  margin:0;
+  padding:0;
+  font-weight: 300;
+  max-width: 600px;
+  margin: 0px auto;
+  font-family: "jaf-bernino-sans","Helvetica Neue",Helvetica,Lucida Grande,"Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+}
+a{
+  color:#1c909f;
+  text-decoration:none;
+}
+.title{
+  font-size:20px;
+  font-weight:400;
+}
+.signature{
+  font-weight:400;
+}
+.header-strip{
+  background-color:#1c909f;
+  padding:20px 10px;
+  color:white;
+}
+.center{
+  text-align:center;
+}
+.content-wrapper{
+  padding:10px;
+}
+
+.button-container{
+  margin-bottom:5px;
+}
+.button-mail{
+  background-color:#1c909f;
+  border-radius:4px;
+  color:white;
+  padding:4px;
+  width:20px;
+  text-align:center;
+  margin-right:5px;
+  display:inline-block;
+}
+
+.button-facebook{
+  background-color:#45629d;
+  border-radius:4px;
+  color:white;
+  padding:4px;
+  width:20px;
+  text-align:center;
+  margin-right:5px;
+  display:inline-block;
+
+}
+
+.button-twitter{
+  background-color:#55acee;
+  border-radius:4px;
+  color:white;
+  padding:4px;
+  width:20px;
+  text-align:center;
+  margin-right:5px;
+  display:inline-block;
+
+}
