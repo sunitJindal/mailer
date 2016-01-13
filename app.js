@@ -7,7 +7,9 @@ emailTemplates(templatesDir, function(err, template) {
 
   // Render a single email with one template
   template('resetPin', {token:"768483"}, function(err, html, text) {
-    console.log(err)
+    if(err){
+        console.log(err)
+    }
     createFile("resetPin",html);
   });
 
@@ -15,7 +17,7 @@ emailTemplates(templatesDir, function(err, template) {
 
 
 function createFile(name,content){
-  fs.writeFile("./"+name+".html", content, function(err) {
+  fs.writeFile("./output/"+name+".html", content, function(err) {
     if(err) {
       return console.log(err);
     }

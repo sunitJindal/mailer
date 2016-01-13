@@ -5,6 +5,7 @@ bin/
 dist/
 out/
 bin-groovy/
+output/
 .svn/
 .metadata/
 node_modules/
