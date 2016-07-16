@@ -34,3 +34,4 @@ environment.js
 rebel.xml
 .swp
 clean.bat
+**/__pycache__/
